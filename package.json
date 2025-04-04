@@ -1,5 +1,5 @@
 {
-  "name": "@billaearnkit/sdk",
+  "name": "@billaearnkit/sdk-alpha",
   "version": "1.0.0",
   "description": "SDK for creating and managing AI agents with tools",
   "main": "dist/index.js",
@@ -21,7 +21,7 @@
     "anthropic",
     "gemini"
   ],
-  "author": "Your Name",
+  "author": "Billa labs",
   "license": "ISC",
   "repository": {
     "type": "git",
