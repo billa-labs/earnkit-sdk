@@ -1,4 +1,4 @@
-import { StructuredTool } from "@billaearnkit/core";
+import { StructuredTool } from "@billaearnkit/alpha-core";
 import { z } from "zod";
 import { Agent } from "../agent";
 import { Tools, toolType } from "../types";

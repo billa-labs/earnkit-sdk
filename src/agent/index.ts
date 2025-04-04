@@ -1,12 +1,12 @@
 import { MongoClient } from "mongodb";
 import chalk from "chalk";
-import { UserMessage, SystemMessage } from "@billaearnkit/core";
-import { MongoSaver } from "@billaearnkit/core";
-import { createAgent } from "@billaearnkit/core";
+import { UserMessage, SystemMessage } from "@billaearnkit/alpha-core";
+import { MongoSaver } from "@billaearnkit/alpha-core";
+import { createAgent } from "@billaearnkit/alpha-core";
 import { exportToolsAndSetMetadata } from "../registry";
 import { Tools, toolType } from "../types";
-import { MemorySaver } from "@billaearnkit/core";
-import { CoreChatModel } from "@billaearnkit/core";
+import { MemorySaver } from "@billaearnkit/alpha-core";
+import { CoreChatModel } from "@billaearnkit/alpha-core";
 
 export class Agent {
   public tools: { [key: string]: toolType };

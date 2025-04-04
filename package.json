@@ -25,11 +25,11 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/snehendu098/earnkit-sdk"
+    "url": "https://github.com/billa-labs/earnkit-sdk"
   },
-  "homepage": "https://example.com",
+  "homepage": "https://earnkit.com",
   "dependencies": {
-    "@billaearnkit/core": "^0.0.1",
+    "@billaearnkit/alpha-core": "^0.0.1",
     "chalk": "4.1.2",
     "dotenv": "^16.4.7",
     "zod": "^3.24.2"

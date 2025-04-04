@@ -1,4 +1,4 @@
-import { StructuredTool, Tool } from "@billaearnkit/core";
+import { StructuredTool, Tool } from "@billaearnkit/alpha-core";
 
 export type toolType = StructuredTool<any> | Tool;
 
