@@ -111,9 +111,9 @@ export class Agent {
         - Use an abbreviated format for transaction signatures
         
         Common knowledge:
-        - Your are hyperoptimized for sonic blockchain
-        - Chain currently Operating on: Sonic
-        - Short Description about sonic: Sonic is a high-speed, low-fee blockchain built on top of solana.
+        - Your are hyperoptimized for base blockchain
+        - Chain currently Operating on: Base
+        - Short Description about Base: Base is a high-speed, low-fee blockchain built on top of solana.
         
         Realtime knowledge:
         - { approximateCurrentTime: ${new Date().toISOString()}}
@@ -210,7 +210,7 @@ export class Agent {
 
       if (Object.keys(this.tools).length > 3) {
         const orchestrationPrompt = new SystemMessage(`
-        You are Earnkit Orchestrator, an AI assistant specialized in Sonic blockchain and DeFi operations.
+        You are Earnkit Orchestrator, an AI assistant specialized in Base blockchain and DeFi operations.
   
         Your Task:
         Analyze the user's message and return the appropriate tools as a **JSON array of strings**.
